@@ -82,7 +82,7 @@ I then saved this python script as 'camera.py' in the /home/pi/ directory.
 In order to have this script running in the background while Raspbian is running, the file at /etc/rc.local needs to be edited. Open it up and add the following line to the very bottom.
 ```
 python /home/pi/camera.py &  
-``
+```
 The ampersand and the end is important, it ensures the script is always running in the background and will not close.
  
 
